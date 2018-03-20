@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.camilolozano.parcialcamilolozanoi02311.MainActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:elevation="50dp"
-        android:layout_margin="10dp"
-
-        >
+        android:layout_margin="5dp">
         <!-- Importar view externo -->
-        <include layout="@layout/"></include>
+        <include layout="@layout/cvstart"/>
+        <include layout="@layout/cveye"/>
+        <include layout="@layout/cvcine"/>
+    </LinearLayout>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        >
+        <include layout="@layout/cvtime"/>
 
     </LinearLayout>
 
-</android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>
