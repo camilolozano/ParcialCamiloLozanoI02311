@@ -7,155 +7,173 @@
     android:elevation="50dp"
     >
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
-
+        android:layout_height="match_parent">
         <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
             >
 
-            <RelativeLayout
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 >
-                <ImageView
-                    android:id="@+id/img1"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/profile1"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
-                    />
 
-
-                <TextView
+                <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="No solo sobrevivio 500 años, sino que tambien ingreso"
-                    android:textSize="11sp"
-                    android:layout_toRightOf="@+id/img1"
-                    android:layout_centerVertical="true"
-                    android:textStyle="bold"
-                    />
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
 
-            </RelativeLayout>
+                    >
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/profile1"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        />
 
-        </LinearLayout>
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No solo sobrevivio 500 años, sino que tambien ingreso"
+                        android:textSize="11sp"
+                        android:layout_toRightOf="@+id/img1"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold"
+                        />
 
-            <RelativeLayout
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 >
-                <ImageView
-                    android:id="@+id/img2"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/profile2"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
-                    />
 
-
-                <TextView
+                <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="No solo sobrevivio 500 años, sino que tambien ingreso"
-                    android:textSize="11sp"
-                    android:layout_toRightOf="@+id/img2"
-                    android:layout_centerVertical="true"
-                    android:textStyle="bold"
-                    />
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
 
-            </RelativeLayout>
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            >
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-
-                >
-                <ImageView
-                    android:id="@+id/img3"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/profile1"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
-                    />
+                    >
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/profile2"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        />
 
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="No solo sobrevivio 500 años, sino que tambien ingreso"
-                    android:textSize="11sp"
-                    android:layout_toRightOf="@+id/img3"
-                    android:layout_centerVertical="true"
-                    android:textStyle="bold"
-                    />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No solo sobrevivio 500 años, sino que tambien ingreso"
+                        android:textSize="11sp"
+                        android:layout_toRightOf="@+id/img2"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold"
+                        />
 
-            </RelativeLayout>
+                </RelativeLayout>
 
-        </LinearLayout>
+            </LinearLayout>
 
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            >
-
-            <RelativeLayout
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 >
-                <ImageView
-                    android:id="@+id/img4"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/profile2"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
-                    />
 
-
-                <TextView
+                <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="No solo sobrevivio 500 años, sino que tambien ingreso"
-                    android:textSize="11sp"
-                    android:layout_toRightOf="@+id/img4"
-                    android:layout_centerVertical="true"
-                    android:textStyle="bold"
-                    />
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
 
-            </RelativeLayout>
+                    >
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/profile1"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        />
 
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No solo sobrevivio 500 años, sino que tambien ingreso"
+                        android:textSize="11sp"
+                        android:layout_toRightOf="@+id/img3"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+
+                    >
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/profile2"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No solo sobrevivio 500 años, sino que tambien ingreso"
+                        android:textSize="11sp"
+                        android:layout_toRightOf="@+id/img4"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
+
+    </ScrollView>
+
+
 
 
 
