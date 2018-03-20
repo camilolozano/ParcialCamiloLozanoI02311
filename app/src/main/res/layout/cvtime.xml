@@ -29,6 +29,7 @@
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
 
                 >
                 <TextView
@@ -49,10 +50,16 @@
                     />
             </RelativeLayout>
 
+            <View
+                android:layout_width="40dp"
+                android:layout_height="0dp"></View>
+
             <RelativeLayout
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+
                 >
 
                 <TextView
@@ -109,6 +116,9 @@
 
             </RelativeLayout>
 
+            <View
+                android:layout_width="40dp"
+                android:layout_height="0dp"></View>
             <RelativeLayout
                 android:layout_weight="1"
                 android:layout_width="match_parent"
